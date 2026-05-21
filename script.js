@@ -44,7 +44,7 @@ function showPopup(item, el){
     Jenis: ${item.JENIS || '-'}<br>
     Ruangan: ${item.RUANGAN || '-'}<br>
     Kondisi: ${item.KONDISI || '-'}<br>
-    Penanggung: ${item.PENANGGUNG_JAWAB || '-'}<br>
+    Penanggung Jawab: ${item.PENANGGUNG_JAWAB || '-'}<br>
     ${item.FOTO_URL ? `<img src="${item.FOTO_URL}">` : ""}
   `;
 
