@@ -40,11 +40,11 @@ function showPopup(item, el){
 
   popup.innerHTML = `
     <div class="popup-close" onclick="this.parentElement.remove()">×</div>
-    <b>${item.NAMA_TANAM || '-'}</b><br>
+    <b>${item.NAMA_TANAMAN || '-'}</b><br>
     Jenis: ${item.JENIS || '-'}<br>
     Ruangan: ${item.RUANGAN || '-'}<br>
     Kondisi: ${item.KONDISI || '-'}<br>
-    Penanggung: ${item.PENANGGUNG || '-'}<br>
+    Penanggung: ${item.PENANGGUNG_JAWAB || '-'}<br>
     ${item.FOTO_URL ? `<img src="${item.FOTO_URL}">` : ""}
   `;
 
